@@ -1,0 +1,33 @@
+.contenedor{
+    border: 2px solid blue;
+}
+
+.listas{
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+
+.inputs{
+    border: 1px solid green;
+    margin-bottom: 10px;
+}
+
+.ejemTextos{
+    border: 1px solid yellow;
+    margin-bottom: 10px;
+}
+
+#imagen{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.datos{
+    margin-left: 50px;
+}

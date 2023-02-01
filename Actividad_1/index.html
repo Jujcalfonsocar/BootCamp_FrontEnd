@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--para detectar caracteres especiales-->
+        <meta charset="UTF-8">
+        <!--Descripción que aparece en el navegador-->
+        <meta name="description" content="Primera tarea bootcamp frontend, de Julián Camilo Alfonso Carrillo">
+        <!--Para la busqueda en el navegador-->
+        <meta name="robots" content="index,follow">
+        <!--Titulo de la pestaña-->
+        <title>Primera tarea</title>
+        <!--Responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <!-- Referencial al css del documento -->
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+        <!--La norma dice que se deberia empezar envolviendo todo el body en un main-->
+        <main>
+            <!--Los div son los contenedores principales-->
+            <div class="contenedor">
+                <h1>Primera tarea</h1>
+                <div class="listas">
+                    <h3>Ejemplo listas desordenadas</h3>
+                    <ul>
+                        <li>Pedro</li>
+                        <li>Maria</li>
+                        <li>Santiago</li>
+                    </ul>
+
+                    <h3>Ejemplo listas ordenadas</h3>
+                    <ol>
+                        <li>Pedro</li>
+                        <li>Maria</li>
+                        <li>Santiago</li>
+                    </ol>
+                </div>
+                                
+                <div>
+                    <h3>Ejemplos input</h3>
+                    
+                    <form class="inputs">
+
+                        <table>
+                            <tr>
+                                <td><label for="i1">Texto</label></td>
+                                <td><input id="i1" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="i2">Numerico</label></td>
+                                <td><input id="i2" type="number"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="i3">Fecha y hora</label></td>
+                                <td><input id="i3" type="datetime-local"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="submit"></td>
+                            </tr>
+                        </table>                
+                    </form>
+                    
+                </div>
+
+                <div class="ejemTextos">  
+                    <h3>Ejemplo parrafo</h3>                  
+                    <p class="c1"><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <h3>Ejemplo hipervínculo</h3>
+                    <a href="https://www.youtube.com/watch?v=7dDX9y8muII">Video desplegar react</a>
+                </div>
+                
+                <div>
+                    <h3>Ejemplo imagen</h3>
+                    <img src="pexels-craig-adderley-1563356.jpg" id="imagen">
+                </div>
+
+                <div>
+                    <h3>Ejemplo tabla</h3>
+                    <table class="datos">
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Edad</th>
+                            <th>Telefono</th>
+                        </tr>
+                        <tr>
+                            <td>Julian</td>
+                            <td>Carrillo</td>
+                            <td>24</td>
+                            <td>3106783478</td>
+                        </tr>
+                        <tr>
+                            <td>Sara</td>
+                            <td>Perez</td>
+                            <td>21</td>
+                            <td>3102849878</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro</td>
+                            <td>Diaz</td>
+                            <td>22</td>
+                            <td>3150982849</td>
+                        </tr>
+                        <tr>
+                            <td>Camila</td>
+                            <td>Daza</td>
+                            <td>20</td>
+                            <td>3118340212</td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+        </main>
+    </body>
+</html>
+
